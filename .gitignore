@@ -1,0 +1,4 @@
+node_modules
+dist/bundle*
+dist/report.html
+package-lock.json
