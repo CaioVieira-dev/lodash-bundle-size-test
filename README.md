@@ -11,12 +11,13 @@ npm i
 npm run build
 ```
 
-2. Abra o `dist/report.html`, e veja que a lib do lodash, ""pesa"" mais 68,48KB
+2. Abra o `dist/report.html`, e veja que a lib do lodash, ""pesa"" 136.96 KB
 3. Abra o `src/App.js`, comente a linha 1 e descomente a linha 2. Estamos mudando a maneira como importamos a função "sum"
 4. Rode novamente o comando `npm run build`
-5. Abra novamente o `dist/report.html` e veja que a lib do lodash está pesando 472B
+5. Abra novamente o `dist/report.html` e veja que a lib do lodash está pesando 943 B
 6. Abra o `src/App.js`, comente a linha 2 e descomente a linha 3. Estamos mudando mais uma vez a maneira como importamos a função "sum"
 7. Rode novamente o comando `npm run build`
-8. Abra novamente o `dist/report.html` e veja que a lib do lodash está pesando 464B
-
-![image](https://github.com/user-attachments/assets/d6a52814-831e-4d57-91b0-d79ce17a9524)
+8. Abra novamente o `dist/report.html` e veja que a lib do lodash está pesando 926 B
+9. Abra o `src/App.js`, comente a linha 3 e descomente a linha 4. Estamos mudando pela ultima vez a maneira como importamos a função "sum"
+10. Rode novamente o comando `npm run build`
+11. Abra novamente o `dist/report.html` e veja que a lib do lodash está pesando 476 B

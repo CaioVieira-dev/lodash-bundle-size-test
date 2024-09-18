@@ -1,6 +1,8 @@
 import { sum } from "lodash";
 // import { sum } from "lodash-es";
 // import sum from "lodash-es/sum";
+// import sum from "lodash/sum";
+
 import React from "react";
 
 export function App() {
